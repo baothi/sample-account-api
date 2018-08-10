@@ -14,8 +14,8 @@ end
 
 Account_list =[
   ["1","A銀行","20000"],
-  ["2","C信用金庫","120000"],
-  ["3","E銀行","5000"]
+  ["1","C信用金庫","120000"],
+  ["1","E銀行","5000"]
 ]
 Account_list.each do |user_id,name,balance|
  Account.create(user_id: user_id, name: name, balance: balance)
